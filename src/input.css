@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.navdiv{ 
+    display: none;
+  }
+
+li:hover .navdiv{
+    /* background-color: aliceblue; */
+    display: flex;
+}

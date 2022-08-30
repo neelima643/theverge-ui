@@ -4,15 +4,160 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="../dist/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
   <body>
-    <header class="bg-header-image flex items-center flex-col">
-      <img src="./images/theverge.png" class="" />
-      <p class="text-white text-lg tracking-tighter">
+    <script src="index.js"></script>
+    <header>
+    <div class="bg-black pb-3 sm:pl-5 sm:pr-5 sm:bg-header-image sm:flex sm:items-center sm:flex-col border-b border-b-slate-400 border-slate-200 sm:pb-10">
+      <img src="./images/theverge.png" class="w-1/3 pl-3 pt-3 sm:mt-20 sm:mb-3 md:w-5/12 sm:w-full sm:ml-10 sm:mr-10" />
+      <p class="hidden sm:block sm:text-white text-lg tracking-tighter mb-5">
         MONDAY, AUGUST 29, 2022 | A NEW KIND OF CONNECTIVITY
       </p>
-    </header>
-    <p class="font-bold ">Hello world!</p>
+    </div>
+    
+    <div class="bg-black border-b border-b-slate-400 border-slate-200">
+      <nav class="sm:hidden ">
+          <ul class="w-full flex text-white">
+              <li class="w-2/6 text-center hover:bg-slate-800 pt-2 pb-2">TECH
+                <i class="fa fa-caret-down mt-1 ml-3 text-pink-500"></i>
+                <div class="navdiv w-full bg-slate-800 md:pl-5  pt-4 pb-4 mt-2 absolute h-full">
+                  <ul class="text-xs text-white w-full">
+                    <li class=" mb-2 pb-2 pt-2 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start">Video</li>
+                    <li class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start">Amazon</li>
+                    <li class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start">Apple</li>
+                    <li class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start">Facebook</li>
+                    <li class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start">Google</li>
+                  
+                  
+                    <li class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start">Microsoft</li>
+                    <li class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start">Samsung</li>
+                    <li class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start">Tesla</li>
+                    <li class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start">AI</li>
+                    <li class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start">Cars</li>
+                  
+                  
+                    <li class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start">Cybersecurity</li>
+                    <li class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start">Mobile</li>
+                    <li class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start">Policy</li>
+                    <li class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start">Privacy</li>
+                    <li class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start">Scooters</li>
+                    <li class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start">ALL TECH</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="w-2/6 text-center hover:bg-slate-800 pt-2 pb-2">SCIENCE
+                <i class="fa fa-caret-down mt-1 ml-3 text-pink-500"></i>
+              </li>
+              <li class="w-2/6 text-center hover:bg-slate-800 pt-2 pb-2">MORE
+                <i class="fa fa-caret-down mt-1 ml-3 text-pink-500"></i>
+              </li>
+          </ul>
+      </nav>
+        <nav class="hidden sm:flex md:justify-center sm:ml-5 sm:mr:5">
+          <ul class="text-white flex items-center justify-center">
+            <li class="sm:mr-3 flex hover:bg-slate-800 pt-5 pb-5 pl-2 pr-2">
+              <p>TECH</p>
+              <i class="fa fa-caret-down sm:mt-1 sm:ml-2 text-pink-500"></i>
+              <div class="navdiv flex bg-slate-800 w-64 md:pl-5  md:pt-2 md:pb-2 absolute mt-11 -ml-2">
+                <ul class="text-xs text-white mr-3">
+                  <li class="mt-2 mb-2 hover:text-slate-300">Video</li>
+                  <li class="mt-2 mb-2 hover:text-slate-300">Amazon</li>
+                  <li class="mt-2 mb-2 hover:text-slate-300">Apple</li>
+                  <li class="mt-2 mb-2 hover:text-slate-300">Facebook</li>
+                  <li class="mt-2 mb-2 hover:text-slate-300">Google</li>
+                </ul>
+                <ul class="text-xs  text-white mr-3">
+                  <li class="mt-2 mb-2 hover:text-slate-300">Microsoft</li>
+                  <li class="mt-2 mb-2 hover:text-slate-300">Samsung</li>
+                  <li class="mt-2 mb-2 hover:text-slate-300">Tesla</li>
+                  <li class="mt-2 mb-2 hover:text-slate-300">AI</li>
+                  <li class="mt-2 mb-2 hover:text-slate-300">Cars</li>
+                </ul>
+                <ul class="text-xs text-white mr-3">
+                  <li class="mt-2 mb-2 hover:text-slate-300">Cybersecurity</li>
+                  <li class="mt-2 mb-2 hover:text-slate-300">Mobile</li>
+                  <li class="mt-2 mb-2 hover:text-slate-300">Policy</li>
+                  <li class="mt-2 mb-2 hover:text-slate-300">Privacy</li>
+                  <li class="mt-2 mb-2 hover:text-slate-300">Scooters</li>
+                </ul>
+              </div>
+            </li>
+            <li class="flex sm:mr-3 hover:bg-slate-800 pt-5 pb-5 pl-2 pr-2">
+              REVIEWS
+              <i class="fa fa-caret-down sm:mt-1 sm:ml-2 text-pink-500"></i>
+            
+              <div class="navdiv flex bg-slate-800 w-64 pl-5  pt-2 pb-2 absolute mt-11 -ml-2">
+                <ul class="text-xs text-white mr-3">
+                  <li class="mt-2 mb-2 hover:text-slate-300">Video</li>
+                  <li class="mt-2 mb-2 hover:text-slate-300">Amazon</li>
+                  <li class="mt-2 mb-2 hover:text-slate-300">Apple</li>
+                  <li class="mt-2 mb-2 hover:text-slate-300">Facebook</li>
+                  <li class="mt-2 mb-2 hover:text-slate-300">Google</li>
+                </ul>
+                <ul class="text-xs text-white mr-3">
+                  <li class="mt-2 mb-2 hover:text-slate-300">Microsoft</li>
+                  <li class="mt-2 mb-2 hover:text-slate-300">Samsung</li>
+                  <li class="mt-2 mb-2 hover:text-slate-300">Tesla</li>
+                  <li class="mt-2 mb-2 hover:text-slate-300">AI</li>
+                  <li class="mt-2 mb-2 hover:text-slate-300">Cars</li>
+                </ul>
+                <ul class="text-xs text-white mr-3">
+                  <li class="mt-2 mb-2 hover:text-slate-300">Cybersecurity</li>
+                  <li class="mt-2 mb-2 hover:text-slate-300">Mobile</li>
+                  <li class="mt-2 mb-2 hover:text-slate-300">Policy</li>
+                  <li class="mt-2 mb-2 hover:text-slate-300">Privacy</li>
+                  <li class="mt-2 mb-2 hover:text-slate-300">Scooters</li>
+                </ul>
+              </div></li>
+            <li class="flex sm:mr-3 hover:bg-slate-800 pt-5 pb-5 pl-2 pr-2">
+              SCIENCE
+              <i class="fa fa-caret-down sm:mt-1 sm:ml-2 text-pink-500"></i>
+            </li>
+            <li class="md:flex hidden sm:mr-3 hover:bg-slate-800 pt-5 pb-5 pl-2 pr-2">
+              CREATORS
+              <i class="fa fa-caret-down sm:mt-1 sm:ml-2 text-pink-500"></i></li>
+            <li class="flex sm:mr-3 hover:bg-slate-800 pt-5 pb-5 pl-2 pr-2">
+              ENTERTAINMENT
+              <i class="fa fa-caret-down sm:mt-1 sm:ml-2 text-pink-500"></i></li>
+            <li class="md:flex hidden sm:mr-3 hover:bg-slate-800 pt-5 pb-5 pl-2 pr-2">
+              VIDEO
+              <i class="fa fa-caret-down sm:mt-1 sm:ml-2 text-pink-500"></i></li>
+            <li class="lg:flex hidden sm:mr-3 hover:bg-slate-800 pt-5 pb-5 pl-2 pr-2">
+              FEATURES
+            </li>
+            <li class="lg:flex hidden sm:mr-3">
+              PODCASTS
+            </li>
+            <li class="flex xl:mr-16 lg:mr-1 sm:mr-14">
+              MORE
+              <i class="fa fa-caret-down sm:mt-1 sm:ml-2  text-pink-500"></i></li>
+
+              <li class="lg:inline-flex hidden">
+                <i class="sm:flex fa fa-facebook-f sm:mt-1 sm:ml-2 sm:mr-2 text-pink-500" ></i>
+              </li>
+
+              <li class="lg:inline-flex hidden">
+                <i class="fa fa-twitter sm:mt-1 sm:ml-2 sm:mr-2 text-pink-500" ></i>
+              </li>
+
+              <li class="lg:inline-flex hidden">
+                <i class="fa fa-rss sm:mt-1 sm:ml-2 sm:mr-6 text-pink-500" ></i>
+              </li>
+
+              <li>
+                <i class="fa fa-user sm:mt-1 sm:ml-2 sm:mr-2 text-white" ></i>
+              </li>
+
+              <li>
+                <i class="fa fa-search sm:mt-1 sm:ml-2 sm:mr-2 text-white" ></i>
+              </li>
+          </ul>
+        </nav>
+    </div>
+  </header>
+  
+    
   </body>
 </html>
