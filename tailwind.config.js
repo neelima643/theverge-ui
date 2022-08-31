@@ -7,7 +7,7 @@ module.exports = {
         'header-image': "url('../src/images/bgimg.jpg')",
       },
       fontFamily: {
-        'heading-font': ["Arial Narrow", 'Arial', 'sans-serif'],
+        
       },
 
       screens: {
@@ -24,6 +24,16 @@ module.exports = {
 
       borderWidth: {
         'half': '0.3px'
+      },
+
+      fontSize: {
+        '1': '38px',
+        '2':  '23px'
+      },
+      
+      width: {
+        'custom': '28%',
+        'custom1': '36%'
       }
     },
   },
