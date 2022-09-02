@@ -33,9 +33,12 @@ module.exports = {
       
       width: {
         'custom': '28%',
-        'custom1': '36%',
+        'custom1': '72%',
         '20p': '20%',
         '60p': '60%'
+      },
+      maxWidth: {
+        'largescreen': '80%',
       }
     },
   },
