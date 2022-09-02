@@ -2,18 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.navdiv{ 
-    display: none;
-  }
-
-li:hover .navdiv{
-    /* background-color: aliceblue; */
-    display: flex;
+.navdiv {
+  display: none;
 }
-
-li:hover .icon {
-  color: white;
+li:hover .navdiv {
+  display: flex;
 }
 
 @media only screen and (min-width: 600px) {
@@ -21,5 +14,3 @@ li:hover .icon {
     display: none;
   }
 }
-
-
