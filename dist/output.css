@@ -639,6 +639,34 @@ video {
   height: 100%;
 }
 
+.h-screen {
+  height: 100vh;
+}
+
+.h-80 {
+  height: 20rem;
+}
+
+.h-\[450px\] {
+  height: 450px;
+}
+
+.h-4\/5 {
+  height: 80%;
+}
+
+.h-\[calc\(100vh-88px\)\] {
+  height: calc(100vh - 88px);
+}
+
+.max-h-full {
+  max-height: 100%;
+}
+
+.max-h-screen {
+  max-height: 100vh;
+}
+
 .min-h-full {
   min-height: 100%;
 }
@@ -685,6 +713,14 @@ video {
 
 .justify-center {
   justify-content: center;
+}
+
+.overflow-scroll {
+  overflow: scroll;
+}
+
+.overflow-y-scroll {
+  overflow-y: scroll;
 }
 
 .border-2 {
