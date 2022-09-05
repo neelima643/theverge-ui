@@ -14,12 +14,13 @@
   <body class="bg-black" id="body">
     <header>
       <div
-        class="bg-black pb-3 sm:pl-5 sm:pr-5 sm:bg-header-image sm:flex sm:items-center sm:flex-col border-b border-b-slate-400 border-slate-200 sm:pb-10"
+        class="bg-black flex pb-3 sm:pl-5 sm:pr-5 sm:bg-header-image sm:flex sm:items-center sm:flex-col border-b border-b-slate-400 border-slate-200 sm:pb-10"
       >
         <img
           src="./images/theverge.png"
           class="w-1/3 pl-3 pt-3 sm:mt-12 sm:mb-3 md:w-5/12 sm:w-full sm:ml-10 sm:mr-10"
         />
+        <i class="fa fa-user absolute right-5 top-4 text-white sm:w-0"></i>
         <p class="hidden sm:block sm:text-white text-lg tracking-tighter mb-5">
           MONDAY, AUGUST 29, 2022 | A NEW KIND OF CONNECTIVITY
         </p>
@@ -31,13 +32,13 @@
             <li
               class="w-2/6 text-center hover:bg-zinc-800 pt-2 pb-2"
               id="navid"
-              onmouseover="navdisplay()"
-              onclick="navclose()"
+              onclick="navclose1()"
             >
               TECH
               <i class="fa fa-caret-down mt-1 ml-3 text-pink-500"></i>
               <div
                 class="navdiv w-full bg-zinc-800 md:pl-5 pt-4 pb-4 mt-2 fixed h-full z-10 navdivid"
+                id="navid1"
               >
                 <ul class="text-xs text-white w-full">
                   <li
@@ -127,12 +128,13 @@
             </li>
             <li
               class="w-2/6 text-center hover:bg-zinc-800 pt-2 pb-2"
-              onclick="navclose()"
+              onclick="navclose2()"
             >
               SCIENCE
               <i class="fa fa-caret-down mt-1 ml-3 text-pink-500"></i>
               <div
                 class="navdiv w-full bg-zinc-800 md:pl-5 pt-4 pb-4 mt-2 fixed h-full -left-0 z-10 navdivid"
+                id="navid2"
               >
                 <ul class="text-xs text-white w-full">
                   <li
@@ -143,174 +145,93 @@
                   <li
                     class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start"
                   >
-                    Amazon
+                    Space
                   </li>
                   <li
                     class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start"
                   >
-                    Apple
+                    NASA
                   </li>
                   <li
                     class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start"
                   >
-                    Facebook
+                    SpaceX
                   </li>
                   <li
                     class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start"
                   >
-                    Google
-                  </li>
-
-                  <li
-                    class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start"
-                  >
-                    Microsoft
-                  </li>
-                  <li
-                    class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start"
-                  >
-                    Samsung
-                  </li>
-                  <li
-                    class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start"
-                  >
-                    Tesla
-                  </li>
-                  <li
-                    class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start"
-                  >
-                    AI
-                  </li>
-                  <li
-                    class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start"
-                  >
-                    Cars
+                    Health
                   </li>
 
                   <li
                     class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start"
                   >
-                    Cybersecurity
+                    Energy
                   </li>
                   <li
                     class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start"
                   >
-                    Mobile
+                    Environment
                   </li>
                   <li
                     class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start"
                   >
-                    Policy
-                  </li>
-                  <li
-                    class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start"
-                  >
-                    Privacy
-                  </li>
-                  <li
-                    class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start"
-                  >
-                    Scooters
-                  </li>
-                  <li
-                    class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start"
-                  >
-                    ALL TECH
+                    ALL SCIENCE
                   </li>
                 </ul>
               </div>
             </li>
             <li
               class="w-2/6 text-center hover:bg-zinc-800 pt-2 pb-2"
-              onclick="navclose()"
+              onclick="navclose3()"
             >
               MORE
               <i class="fa fa-caret-down mt-1 ml-3 text-pink-500"></i>
               <div
                 class="navdiv w-full bg-zinc-800 md:pl-5 pt-4 pb-4 mt-2 fixed h-full -left-0 z-10 navdivid"
+                id="navid3"
               >
                 <ul class="text-xs text-white w-full">
                   <li
                     class="mb-2 pb-2 pt-2 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start"
                   >
-                    Video
+                    REVIEWS
                   </li>
                   <li
                     class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start"
                   >
-                    Amazon
+                    CREATORS
                   </li>
                   <li
                     class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start"
                   >
-                    Apple
+                    ENTERTAINMENT
                   </li>
                   <li
                     class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start"
                   >
-                    Facebook
+                    VIDEO
                   </li>
                   <li
                     class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start"
                   >
-                    Google
-                  </li>
-
-                  <li
-                    class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start"
-                  >
-                    Microsoft
-                  </li>
-                  <li
-                    class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start"
-                  >
-                    Samsung
-                  </li>
-                  <li
-                    class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start"
-                  >
-                    Tesla
-                  </li>
-                  <li
-                    class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start"
-                  >
-                    AI
-                  </li>
-                  <li
-                    class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start"
-                  >
-                    Cars
+                    FEATURES
                   </li>
 
                   <li
                     class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start"
                   >
-                    Cybersecurity
+                    PODCASTS
                   </li>
                   <li
                     class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start"
                   >
-                    Mobile
+                    NEWSLETTERS
                   </li>
                   <li
                     class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start"
                   >
-                    Policy
-                  </li>
-                  <li
-                    class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start"
-                  >
-                    Privacy
-                  </li>
-                  <li
-                    class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start"
-                  >
-                    Scooters
-                  </li>
-                  <li
-                    class="mt-2 mb-2 pb-3 pt-3 pl-4 border-b border-b-slate-400 hover:text-slate-300 w-full text-start"
-                  >
-                    ALL TECH
+                    MERCH STORE
                   </li>
                 </ul>
               </div>
