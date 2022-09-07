@@ -4,42 +4,40 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'header-image': "url('../public/images/bgimg.jpg)",
+        "header-image": "url('../public/images/bgimg.jpg')",
       },
-      fontFamily: {
-        
-      },
+      fontFamily: {},
 
       screens: {
-        'mobile' : '400px',
+        mobile: "400px",
       },
 
       colors: {
-        'nav-list' : '#404040',
+        "nav-list": "#404040",
       },
 
       margin: {
-        '20p': '22%',
+        "20p": "22%",
       },
 
       borderWidth: {
-        'half': '0.3px'
+        half: "0.3px",
       },
 
       fontSize: {
-        '1': '38px',
-        '2':  '23px'
+        1: "38px",
+        2: "23px",
       },
-      
+
       width: {
-        'custom': '28%',
-        'custom1': '72%',
-        '20p': '20%',
-        '60p': '60%'
+        custom: "28%",
+        custom1: "72%",
+        "20p": "20%",
+        "60p": "60%",
       },
       maxWidth: {
-        'largescreen': '80%',
-      }
+        largescreen: "80%",
+      },
     },
   },
   plugins: [],
