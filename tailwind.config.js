@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'header-image': "url('../src/images/bgimg.jpg')",
+        'header-image': "url('../public/images/bgimg.jpg)",
       },
       fontFamily: {
         
